@@ -33,7 +33,7 @@ The model demonstrates high diagnostic reliability on the test set:
 
 ## 📂 Dataset & Resources
 To run the training or inference, please download the following resources:
-- **Dataset:** .https://drive.google.com/file/d/1L4Om8w5NNqi1YqI0YyvqcP-qpku5c4dB/view?usp=drive_link
+- **Dataset:** .https://drive.google.com/file/d/1YAAUR4U1yWXoWWnIUeRyRBy4Ctfuaef7/view?usp=drive_link
 - **Manuel Inference** .https://drive.google.com/file/d/1i5xg-Cwx8PM92D2i9C4VbhurkkbUANmh/view?usp=drive_link
 
 ## 👨‍🔬 About the Author
