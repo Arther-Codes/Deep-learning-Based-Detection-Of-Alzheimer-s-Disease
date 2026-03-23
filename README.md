@@ -31,10 +31,10 @@ The model demonstrates high diagnostic reliability on the test set:
 | **No Impairment (Normal) F1-Score** | **0.89** |
 | **Mild Impairment F1-Score** | **0.87** |
 
-## 📂 Project Structure
-* `Custom_model.ipynb`: Complete training pipeline, data preprocessing, and hardware configuration.
-* `alzheimers_model.h5`: Saved model weights for easy deployment and verification.
-* `Kaggle/Combined Dataset/`: Source directory for the MRI image dataset.
+## 📂 Dataset & Resources
+To run the training or inference, please download the following resources:
+- **Dataset:** .https://drive.google.com/file/d/1L4Om8w5NNqi1YqI0YyvqcP-qpku5c4dB/view?usp=drive_link
+- **Manuel Inference** .https://drive.google.com/file/d/1i5xg-Cwx8PM92D2i9C4VbhurkkbUANmh/view?usp=drive_link
 
 ## 👨‍🔬 About the Author
 **Sampara Emmanuel Arther George**
