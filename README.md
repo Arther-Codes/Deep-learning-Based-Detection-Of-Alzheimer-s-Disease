@@ -16,10 +16,35 @@ The system follows a methodical multi-phase approach as detailed in the research
 * **Data Augmentation**: Techniques such as rotation, zooming, and flipping are applied to increase diversity and mitigate overfitting.
 * **Architecture**: A Sequential CNN model utilizing Inception v3 for hierarchical feature extraction, followed by MaxPooling, Dropout, and a SoftMax activation layer for final classification.
 
-## 🛠️ Tech Stack & Hardware
-* **Frameworks**: TensorFlow 2.x, Keras
-* **Libraries**: NumPy, Scikit-learn, Matplotlib
-* **Hardware Optimization**: Custom environment flags (`TF_CUDNN_USE_AUTOTUNE=0` and `TF_XLA_FLAGS`) and memory growth settings were implemented to ensure stability and performance on **NVIDIA Blackwell (RTX 5060)** architecture.
+## 🛠️ Technical Stack & Environment
+This repository is optimized for **WSL2 (Windows Subsystem for Linux)** and high-performance NVIDIA hardware.
+
+### Hardware Specifications
+* **GPU:** NVIDIA GeForce RTX 5060 (Blackwell Architecture)
+* **Memory Management:** TensorFlow Memory Growth enabled to prevent VRAM fragmentation.
+
+### Software Requirements
+| Tool | Version |
+| :--- | :--- |
+| **OS** | Ubuntu 22.04 LTS (WSL2) |
+| **Python** | 3.13 |
+| **TensorFlow** | 2.16 (Keras 3) |
+| **CUDA / cuDNN** | 12.5 / 9.x |
+
+---
+
+### ☁️ Cloud Alternative: Google Colab (Recommended)
+
+If you do not have a local **WSL2 + CUDA** environment configured, it is highly recommended to run this project via **Google Colab**.Plese make use of the Collab ipynb file.
+
+* **Zero Setup:** No local drivers or Python installation required.
+* **Free GPU Access:** Provides access to NVIDIA T4/L4 GPUs.
+* **Direct Integration:** Seamlessly connects to the Google Drive dataset link.
+
+## 📂 Dataset & Data Handling
+The model is trained on the **Alzheimer's Combined Dataset**. 
+
+> **Note on Data Access:** Due to the large file size, the dataset is hosted externally. Please refer to the **Google Drive link** provided below in description to download the required image folders.
 
 ## 📊 Performance Results
 The model demonstrates high diagnostic reliability on the test set:
