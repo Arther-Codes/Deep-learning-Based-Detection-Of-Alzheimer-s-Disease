@@ -5,6 +5,3 @@ test_model/
 # Ignore python/jupyter junk
 __pycache__/
 .ipynb_checkpoints/
-
-# Optional: If your .keras files are >100MB, you might need Git LFS, 
-# but for now, let's keep them if they are small enough.
